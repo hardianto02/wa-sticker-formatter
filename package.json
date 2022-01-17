@@ -2,13 +2,13 @@
   "name": "wa-sticker-formatter",
   "version": "4.2.0",
   "description": "Sticker Creator for WhatsApp",
-  "main": "dist",
-  "types": "dist",
+  "main": "src",
+  "types": "src",
   "files": [
-    "dist"
+    "src"
   ],
   "scripts": {
-    "prebuild": "rimraf dist",
+    "prebuild": "rimraf src",
     "build": "tsc -p .",
     "doc": "typedoc",
     "lint": "eslint \"src/**/*.ts\"",
