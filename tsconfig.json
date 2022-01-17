@@ -6,7 +6,7 @@
     ],                         
     "module": "commonjs",
     "declaration": true,                     
-    "outDir": "./src",                        
+    "outDir": "./dist",                        
     "resolveJsonModule": true,
     "strict": true,                           
     "esModuleInterop": true,                  
@@ -14,7 +14,7 @@
     "forceConsistentCasingInFileNames": true  
   },
   "include": [
-    "src/**/*"
+    "dist/**/*"
   ],
   "exclude": [
     "node_modules",

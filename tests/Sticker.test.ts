@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/triple-slash-reference
-/// <reference path='../src/internal/node-webmux' />
+/// <reference path='../dist/internal/node-webmux' />
 import { strict as assert } from 'assert'
-import Sticker, { extractMetadata, StickerTypes } from '../src'
+import Sticker, { extractMetadata, StickerTypes } from '../dist'
 import sizeOf from 'image-size'
 
 const images = {
